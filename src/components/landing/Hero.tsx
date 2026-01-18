@@ -55,13 +55,13 @@ export default function Hero() {
 
         {/* Right visual / outcome card */}
         <div className="flex-1">
-          <div className="card-soft h-full min-h-[240px] md:min-h-[280px] flex flex-col justify-between">
+          <div className="card-soft h-full min-h-[2090px] md:min-h-[240px] flex flex-col justify-between">
             
             <div>
-              <p className="text-sm font-medium text-slate-800">
+              <p className="text-base md:text-lg font-bold text-slate-800">
                 See your readiness grow as you practice.
               </p>
-              <p className="mt-3 text-xs text-slate-600">
+              <p className="mt-3 text-s text-slate-600">
                 Your dashboard tracks civics, English, and real-life skills —
                 showing what you’ve mastered and what to review next.
               </p>

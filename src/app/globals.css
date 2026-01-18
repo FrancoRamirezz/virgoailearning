@@ -125,13 +125,14 @@ body {
   }
 
   .card-soft {
-    @apply rounded-2xl p-6 md:p-7 shadow-sm;
+    @apply bg-gradient-to-b from-yellow-100 to-yellow-50 rounded-2xl p-6 border-2 border-yellow-200
+    /* @apply rounded-2xl p-6 md:p-7 shadow-sm;
     background: linear-gradient(
       145deg,
       rgba(165, 210, 247, 0.604),
       #fce5ec,
       rgba(242, 242, 202, 0.908)
-    );
+    ); */
   }
 
   .badge-pill, .gradient-border {
