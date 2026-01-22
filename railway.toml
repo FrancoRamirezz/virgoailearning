@@ -1,0 +1,11 @@
+[build]
+buildCommand = "go build -o main ."
+
+[deploy]
+startCommand = "./main"
+healthcheckPath = "/health"
+healthcheckTimeout = 30
+restartPolicyType = "on-failure"
+
+[env]
+NODE_ENV = "production"
